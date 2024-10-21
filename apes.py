@@ -4,7 +4,7 @@ import asyncio
 import time
 import logging
 from apes_assisstant import ASSISSTANT_ID
-
+from token_1 import DISCORD_TOKEN
 
 opclient = OpenAI(
 )
@@ -14,8 +14,8 @@ intents.messages = True
 intents.message_content = True
 client = discord.Client(intents=intents)
 
-
-# Discord_BOT_API_KEY = "MTI5NzEwNTQ5NTQ5NjA2OTE2MQ.G1HMXN.ow0yIoYFNTpVkVHLRoIMmf89xzFO7OSh3Xj4Qo"
+# paste ur own discord bot key
+Discord_BOT_API_KEY = " "
 assisstant_id = ASSISSTANT_ID
 thread_id = None
 
