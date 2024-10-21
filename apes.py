@@ -15,7 +15,7 @@ intents.message_content = True
 client = discord.Client(intents=intents)
 
 
-Discord_BOT_API_KEY = "MTI5NzEwNTQ5NTQ5NjA2OTE2MQ.G1HMXN.ow0yIoYFNTpVkVHLRoIMmf89xzFO7OSh3Xj4Qo"
+# Discord_BOT_API_KEY = "MTI5NzEwNTQ5NTQ5NjA2OTE2MQ.G1HMXN.ow0yIoYFNTpVkVHLRoIMmf89xzFO7OSh3Xj4Qo"
 assisstant_id = ASSISSTANT_ID
 thread_id = None
 
